@@ -1,0 +1,5 @@
+                    Requirements
+1. Flask
+2.ibm_db
+3.sendgrid
+4.python-dotenv

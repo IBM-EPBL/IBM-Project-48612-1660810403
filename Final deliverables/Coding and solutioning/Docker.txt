@@ -1,0 +1,8 @@
+                                  Docker file
+1.FROM python:3.6
+2.WORKDIR /app
+3.ADD . /app
+4.COPY requirements.txt /app
+5.RUN python3 -m pip install -r requirements.txt
+6.EXPOSE 5000
+7.CMD ["python","app.py"]
